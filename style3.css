@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0;}
+body{
+    background: greenyellow;
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 44%;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: auto;
+    
+}
+.nav-list{
+    width: 70%;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 23px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:pink;
+
+}
+.rightNav{
+    background-color: gray;
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 23px;
+}
+#search{
+    font-size: 16px;
+    border: 3px solid Yellow;
+    border-radius: 12px;
+}
+.test{
+    background-color: lightblue;
+}
+
+.nn{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+.bt{
+    background-color: lightblue;
+    color: white;
+}
+.yu{
+    padding: 15px 58px;
+    color: rgb(38, 14, 179);
+    background-color: khaki;
+    border: 4px solid gray;
+    border-radius: 39px;
+    cursor: pointer;
+    text-align: center;
+}
+.yu:hover{
+    color: deepskyblue;
+    background-color: fuchsia;
+}
+.ikk{
+    
+    border: 3px solid gray;
+    border-radius: 34px;
+}
+
+.tu{
+    background-color: black;
+}
+.bp{
+    background-color: black;
+    color: white;
+}
+
+.tppp{
+    background-color: hotpink;
+}
+.bm{
+    background-color: hotpink;
+    color: white;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7PX 0;
+    border: 3px solid gray;
+    border-radius: 21px;
+    font-size: large;
+    color: white;
+    background-color: red;
+    cursor: pointer; 
+    margin-bottom: 10px;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
